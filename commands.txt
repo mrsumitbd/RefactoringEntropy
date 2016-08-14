@@ -1,0 +1,3 @@
+Count No of Files:
+------------------
+find /path/to -iregex ".*\.\(jpg\|gif\|png\|jpeg\)" | wc -l
