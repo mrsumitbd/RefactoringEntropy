@@ -1,3 +1,7 @@
 Count No of Files:
 ------------------
 find /path/to -iregex ".*\.\(jpg\|gif\|png\|jpeg\)" | wc -l
+
+Command for Running ANTLR4 on .g4 files:
+---------------------------------------
+java -jar /usr/local/lib/antlr-4.5-complete.jar xyz.g4
