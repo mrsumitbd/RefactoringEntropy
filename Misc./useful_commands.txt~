@@ -1,0 +1,2 @@
+Recurssively count total number of files with a fixed extension (say .c and .h) in a directory:
+find . -iregex ".*\.\(c\|h\)"|wc -l
