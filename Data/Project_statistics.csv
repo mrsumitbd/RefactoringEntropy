@@ -1,6 +1,3 @@
-,,,,,,
-,,,,,,
-,,,,,,
 Project Name,Type,Access Date,Files,Comments,Lines of Code, No. of Tokens
 Vert.x,Non-Refactored,20-07-2016,414,21837,50436,407825
 ,Refactored,,437,21927,51920, 422390
@@ -10,14 +7,14 @@ Aeron,Non-Refactored,,237,8369,26667,193956
 ,Refactored,,237,8369,26649, 194053
 checkstyle,Non-Refactored,,1092,39712,73214, 504086
 ,Refactored,,1092,39695,73175, 503857
-Guacamole-client,Non-Refactored,,327,19558,11855,
-,Refactored,,327,19564,11859,
-processing,Non-Refactored,,228,50577,91024,
-,Refactored,,228,50576,91024,
+Guacamole-client,Non-Refactored,,327,19558,11855, 90044
+,Refactored,,327,19564,11859, 90061
+processing,Non-Refactored,,228,50577,91024, 698598
+,Refactored,,228,50576,91024, 698603
 Buck,Non-Refactored,,2269,82571,226583, 1966841
 ,Refactored,,2271,82601,226674, 1967353
-orientdb,Non-Refactored,,2057,55111,265440,
-,Refactored,,2060,55152,265664,
+orientdb,Non-Refactored,,2057,55111,265440, 2363105
+,Refactored,,2060,55152,265664,2364702
 atomix,Non-Refactored,,254,13916,19424, 147668
 ,Refactored,,254,13917,19424, 147623
 fabric8,Non-Refactored,,913,24045,65966,531673
