@@ -13,7 +13,7 @@ import operator
 """
 Example command:
 
-python /path/to/input/file valueofN /path/to/output/file
+python ngram_count.py /path/to/input/file valueofN /path/to/output/file
 """
 
 def count_ngram():
