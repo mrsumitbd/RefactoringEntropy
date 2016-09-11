@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.7)  18 AUG 2016 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.27)  11 SEP 2016 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report_1st_draft.tex
 (./report_1st_draft.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 2 languages loaded.
 (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -114,14 +114,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
@@ -129,7 +129,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -264,9 +264,9 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 100.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -287,10 +287,10 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 Package: cprotect 2011/01/27 v1.0e (Bruno Le Floch)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
-Package: suffix 2006/07/15 1.5 Variant command support
+Package: suffix 2006/07/15 1.5a Variant command support
 )
 \CPT@WriteOut=\write4
 \c@CPT@WriteCount=\count108
@@ -402,70 +402,77 @@ LaTeX Info: Redefining \nameref on input line 258.
 \@outlinefile=\write5
 \openout5 = `report_1st_draft.out'.
 
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 276.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 306.
+(Font)              <11> on input line 276.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 306.
+(Font)              <7.69997> on input line 276.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.5> on input line 276.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 276.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 276.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 276.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 276.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 343.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 343.
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--406
+Underfull \hbox (badness 10000) in paragraph at lines 406--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
+Underfull \hbox (badness 10000) in paragraph at lines 413--416
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--419
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--423
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
 
  []
 
 
-LaTeX Warning: Citation `peter' on page 2 undefined on input line 428.
+LaTeX Warning: Citation `peter' on page 2 undefined on input line 433.
 
 
-LaTeX Warning: Citation `julia' on page 2 undefined on input line 428.
+LaTeX Warning: Citation `julia' on page 2 undefined on input line 433.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--430
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 431--435
+Underfull \hbox (badness 10000) in paragraph at lines 430--435
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+qcr on input line 447.
-(/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--440
+
+ []
+
+[2]
+LaTeX Font Info:    Try loading font information for T1+qcr on input line 452.
+ (/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
 File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
-) [2]
+)
 <../Result/Refactoring_MoveClass/Plot/OrientDB.png, id=176, 1684.6137pt x 1005.
 9984pt>
 File: ../Result/Refactoring_MoveClass/Plot/OrientDB.png Graphic file (type png)
 
  <use ../Result/Refactoring_MoveClass/Plot/OrientDB.png>
 Package pdftex.def Info: ../Result/Refactoring_MoveClass/Plot/OrientDB.png used
- on input line 468.
+ on input line 473.
 (pdftex.def)             Requested size: 426.79134pt x 254.86069pt.
 
 <../Result/Refactoring_MoveClass/Plot/buck.png, id=178, 1684.6137pt x 1005.9984
@@ -473,47 +480,36 @@ pt>
 File: ../Result/Refactoring_MoveClass/Plot/buck.png Graphic file (type png)
  <use ../Result/Refactoring_MoveClass/Plot/buck.png>
 Package pdftex.def Info: ../Result/Refactoring_MoveClass/Plot/buck.png used on 
-input line 471.
+input line 476.
 (pdftex.def)             Requested size: 426.79134pt x 254.86069pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 500--505
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 505--510
 [] 
  []
 
-
-<../Result/Refactoring_MoveClass/Plot/ManualVsTool_buck.png, id=184, 1684.6137p
+[3]
+<../Result/Refactoring_MoveClass/Plot/ManualVsTool_buck.png, id=194, 1684.6137p
 t x 1005.9984pt>
 File: ../Result/Refactoring_MoveClass/Plot/ManualVsTool_buck.png Graphic file (
 type png)
 
 <use ../Result/Refactoring_MoveClass/Plot/ManualVsTool_buck.png>
 Package pdftex.def Info: ../Result/Refactoring_MoveClass/Plot/ManualVsTool_buck
-.png used on input line 514.
+.png used on input line 519.
 (pdftex.def)             Requested size: 426.79134pt x 254.86069pt.
 
-<../Result/Refactoring_ExtractMethod/Plots/ToolVsManual_languagetool.png, id=18
+<../Result/Refactoring_ExtractMethod/Plots/ToolVsManual_languagetool.png, id=19
 5, 1684.6137pt x 1005.9984pt>
 File: ../Result/Refactoring_ExtractMethod/Plots/ToolVsManual_languagetool.png G
 raphic file (type png)
 
 <use ../Result/Refactoring_ExtractMethod/Plots/ToolVsManual_languagetool.png>
 Package pdftex.def Info: ../Result/Refactoring_ExtractMethod/Plots/ToolVsManual
-_languagetool.png used on input line 517.
+_languagetool.png used on input line 522.
 (pdftex.def)             Requested size: 426.79134pt x 254.86069pt.
 
-[3]
-Underfull \vbox (badness 7796) has occurred while \output is active []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 563--568
-[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <../Result/Refactoring_MoveClass/Plot/OrientDB.png> <../Result/Refactoring_
-MoveClass/Plot/buck.png>]
+[4 <../Result/Refactoring_MoveClass/Plot/OrientDB.png> <../Result/Refactoring_M
+oveClass/Plot/buck.png>]
 
 LaTeX Warning: Text page 5 contains only floats.
 
@@ -529,59 +525,70 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <../Result/Refactoring_MoveClass/Plot/ManualVsTool_buck.png> <../Result/Ref
 actoring_ExtractMethod/Plots/ToolVsManual_languagetool.png>]
-<../Result/Refactoring_ExtractMethod/Plots/vertX.png, id=219, 1684.6137pt x 100
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 568--573
+[] 
+ []
+
+
+<../Result/Refactoring_ExtractMethod/Plots/vertX.png, id=218, 1684.6137pt x 100
 5.9984pt>
 File: ../Result/Refactoring_ExtractMethod/Plots/vertX.png Graphic file (type pn
 g)
  <use ../Result/Refactoring_ExtractMethod/Plots/vertX.png>
 Package pdftex.def Info: ../Result/Refactoring_ExtractMethod/Plots/vertX.png us
-ed on input line 585.
+ed on input line 590.
 (pdftex.def)             Requested size: 426.79134pt x 254.86069pt.
 
-<../Result/Refactoring_InlineMethod/Plots/checkstyle.png, id=220, 1684.6137pt x
+<../Result/Refactoring_InlineMethod/Plots/checkstyle.png, id=219, 1684.6137pt x
  1005.9984pt>
 File: ../Result/Refactoring_InlineMethod/Plots/checkstyle.png Graphic file (typ
 e png)
  <use ../Result/Refactoring_InlineMethod/Plots/checkstyle.png>
 Package pdftex.def Info: ../Result/Refactoring_InlineMethod/Plots/checkstyle.pn
-g used on input line 591.
+g used on input line 596.
 (pdftex.def)             Requested size: 426.79134pt x 254.86069pt.
 File: ../Result/Refactoring_MoveClass/Plot/buck.png Graphic file (type png)
 
 <use ../Result/Refactoring_MoveClass/Plot/buck.png>
 Package pdftex.def Info: ../Result/Refactoring_MoveClass/Plot/buck.png used on 
-input line 597.
+input line 602.
 (pdftex.def)             Requested size: 426.79134pt x 254.86069pt.
 
-<../Result/Refactoring_PullUpMethod/Plot/Fabric8.png, id=221, 1684.6137pt x 100
+<../Result/Refactoring_PullUpMethod/Plot/Fabric8.png, id=220, 1684.6137pt x 100
 5.9984pt>
 File: ../Result/Refactoring_PullUpMethod/Plot/Fabric8.png Graphic file (type pn
 g)
  <use ../Result/Refactoring_PullUpMethod/Plot/Fabric8.png>
 Package pdftex.def Info: ../Result/Refactoring_PullUpMethod/Plot/Fabric8.png us
-ed on input line 603.
+ed on input line 608.
 (pdftex.def)             Requested size: 426.79134pt x 254.86069pt.
 
-Underfull \hbox (badness 1354) in paragraph at lines 773--774
+Underfull \hbox (badness 1354) in paragraph at lines 778--779
 []\T1/ptm/m/n/8 Zhaopeng Tu, Zhen-dong Su, and Premku-mar De-vanbu. 2014. On
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 773--774
+Underfull \hbox (badness 1975) in paragraph at lines 778--779
 \T1/ptm/m/n/8 SOFT In-ter-na-tional Sym-po-sium on Foun-da-tions of Soft-ware E
 n-gi-
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 773--774
+Underfull \hbox (badness 1622) in paragraph at lines 778--779
 \T1/ptm/m/n/8 neer-ing (FSE 2014). ACM, New York, NY, USA, 269-280. DOI:
  []
 
 [6]
 Underfull \vbox (badness 2221) has occurred while \output is active []
 
+
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
  [7 <../Result/Refactoring_ExtractMethod/Plots/vertX.png> <../Result/Refactorin
 g_InlineMethod/Plots/checkstyle.png>]
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -593,31 +600,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 821.
-[8
-
- <../Result/Refactoring_PullUpMethod/Plot/Fabric8.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 821.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 826.
+[8 <../Result/Refactoring_PullUpMethod/Plot/Fabric8.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 826.
 
 (./report_1st_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 821.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 821.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 826.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 826.
 Package rerunfilecheck Info: File `report_1st_draft.out' has not changed.
 (rerunfilecheck)             Checksum: 19C84032687464AFA9EC414EFFC260A8;1531.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 821.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 826.
  ) 
 Here is how much of TeX's memory you used:
- 6894 strings out of 493304
- 106749 string characters out of 6139872
- 206160 words of memory out of 5000000
- 10209 multiletter control sequences out of 15000+600000
- 117114 words of font info for 116 fonts, out of 8000000 for 9000
- 960 hyphenation exceptions out of 8191
- 29i,8n,28p,1254b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 6910 strings out of 495000
+ 107013 string characters out of 6181169
+ 202082 words of memory out of 5000000
+ 10001 multiletter control sequences out of 15000+600000
+ 119674 words of font info for 120 fonts, out of 8000000 for 9000
+ 17 hyphenation exceptions out of 8191
+ 35i,11n,28p,1254b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
@@ -626,14 +631,15 @@ s/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
-exmf/fonts/type1/public/tex-gyre/qcrr.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report_1st_draft.pdf (8 pages, 993040 bytes).
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fo
+nts/type1/public/tex-gyre/qcrr.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report_1st_draft.pdf (8 pages, 1001429 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
+ 309 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
  72 named destinations out of 1000 (max. 500000)
  228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
