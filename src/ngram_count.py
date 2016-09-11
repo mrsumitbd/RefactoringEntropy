@@ -10,7 +10,11 @@ from nltk.util import ngrams
 from collections import Counter
 import operator
 
+"""
+Example command:
 
+python /path/to/input/file valueofN /path/to/output/file
+"""
 
 def count_ngram():
     f = open(sys.argv[1], 'r') #reading
