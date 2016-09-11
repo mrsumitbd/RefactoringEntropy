@@ -7,13 +7,6 @@ Created on Thu Aug 18 12:30:29 2016
 
 import codecs, sys
 
-
-"""
-Example command:
-
-python unique_tokens.py /path/to/input/file
-"""
-
 data_file = codecs.open(str(sys.argv[1]), 'r', encoding = 'utf8', errors='ignore')
 
 #data_file = codecs.open("ngram_count.py", 'r', encoding = 'utf8')
