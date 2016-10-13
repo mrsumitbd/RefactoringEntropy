@@ -5,10 +5,12 @@ Created on Tue Aug 16 18:47:47 2016
 @author: MusfiqurRahman
 """
 
-import nltk, sys
+import nltk, sys, codecs
 from nltk.util import ngrams
 from collections import Counter
 import operator
+reload(sys)  
+sys.setdefaultencoding('utf8')
 
 """
 Example command:
@@ -17,7 +19,7 @@ python ngram_count.py /path/to/input/file valueofN /path/to/output/file
 """
 
 def count_ngram():
-    f = open(sys.argv[1], 'r') #reading
+    f = codecs.open(sys.argv[1], 'r', encoding='utf8', errors='ignore') #reading
     text = f.read() #file
     f.close()   #for data
     token = nltk.word_tokenize(text)    #tokenize read data
@@ -29,7 +31,7 @@ def count_ngram():
 def write_to_file(sorted_data):
     FILE = open(sys.argv[3], 'w')
     for x in range (0, len(sorted_data)):
-        FILE.write(str((sorted_data[x])[0]) + "\t" + str((sorted_data[x])[1]) + "\n")
+        FILE.write(str((sorted_data[x])[0]) + "," + str((sorted_data[x])[1]) + "\n")
     
     FILE.close()
 
