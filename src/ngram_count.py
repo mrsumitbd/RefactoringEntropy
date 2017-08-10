@@ -7,7 +7,6 @@ Created on Tue Aug 16 18:47:47 2016
 
 import nltk, sys, codecs, csv
 from nltk.util import ngrams
-from collections import Counter
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
@@ -25,8 +24,11 @@ def count_ngram():
     f.close()   #for data
     token = nltk.word_tokenize(text)    #tokenize read data
     Ngrams = ngrams(token, int(sys.argv[2]))    #count n gram
-    c = Counter(Ngrams)
-    write_to_file(c.most_common())
+    ngram_list = []
+    for ngram in Ngrams:
+        ngram_list.append(ngram)
+    print(len(ngram_list))
+    write_to_file([(item, ngram_list.count(item)) for item in sorted(set(ngram_list))])
 
 
 def write_to_file(sorted_data):
@@ -35,7 +37,7 @@ def write_to_file(sorted_data):
     for i in range (0, len(sorted_data)):
         total = total + int((sorted_data[i])[1])
     for x in range (0, len(sorted_data)):
-        print(str((sorted_data[x])[0]), str((sorted_data[x])[1]), str(((sorted_data[x])[1]*100.0)/total))
+        #print(str((sorted_data[x])[0]), str((sorted_data[x])[1]), str(((sorted_data[x])[1]*100.0)/total))
         data_row.append((sorted_data[x])[0])
         data_row.append(float((sorted_data[x])[1]))
         data_row.append(float(((sorted_data[x])[1]*100.0)/total))
