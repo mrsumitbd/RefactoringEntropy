@@ -1,0 +1,37 @@
+IBM® Informix® 12.10
+TEXT data type
+
+The TEXT data type stores any kind of text data. It can contain both single-byte and multibyte characters that the locale supports. The term simple large object refers to an instance of a TEXT or BYTE data type.
+A TEXT column has a theoretical limit of 231 bytes (two gigabytes) and a practical limit that your available disk storage determines. No more than 195 columns of the same table can be declared as TEXT data types. The same restriction also applies to BYTE data types.
+You can store, retrieve, update, or delete the value in a TEXT column.
+You can use TEXT operands in Boolean expressions only when you are testing for NULL values with the IS NULL or IS NOT NULL operators.
+You can use the following methods, which can load rows or update fields, to insert TEXT data:
+With the dbload or onload utilities
+With the LOAD statement (DB-Access)
+From TEXT host variables (ESQL)
+A built-in cast exists to convert TEXT objects to CLOB objects. For more information, see the IBM® Informix® Database Design and Implementation Guide.
+Strings of the TEXT data type are collated in code-set order. For more information about collating orders, see the IBM Informix GLS User's Guide.
+Selecting data in a TEXT column
+When you select a TEXT column, you can receive all or part of it. To retrieve it all, use the regular syntax for selecting a column. You can also select any part of a TEXT column by using subscripts, as this example shows:
+SELECT cat_descr [1,75] FROM catalog WHERE catalog_num = 10001
+The SELECT statement reads the first 75 bytes of the cat_descr column associated with the catalog_num value 10001.
+Loading data into a TEXT column
+You can use the LOAD statement to insert data into a table. For example, the inp.txt file contains the following information:
+1|aaaaa| 
+2|bbbbb| 
+3|cccccc| 
+To load this data into the blobtab table use the following statement:
+LOAD FROM inp.txt INSERT INTO blobtab;
+Limitations
+You cannot use TEXT operands in arithmetic or string expressions, nor can you assign literals to TEXT columns in the SET clause of the UPDATE statement.
+You also cannot use TEXT values in any of the following ways:
+With aggregate functions
+With the IN clause
+With the MATCHES or LIKE clauses
+With the GROUP BY clause
+With the ORDER BY clause
+You cannot use a quoted text string, number, or any other actual value to insert or update TEXT columns.
+You cannot use the MEDIUM or HIGH options of the UPDATE STATISTICS statement to calculate distribution statistics on TEXT columns.
+Important
+An error results if you try to return a TEXT column from a subquery, even if no TEXT column is used in a comparison condition or with the IN predicate.
+
