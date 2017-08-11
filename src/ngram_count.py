@@ -28,19 +28,22 @@ def count_ngram():
     for ngram in Ngrams:
         ngram_list.append(ngram)
     print(len(ngram_list))
-    write_to_file([(item, ngram_list.count(item)) for item in sorted(set(ngram_list))])
+    fdist = nltk.FreqDist(ngram_list)
+    write_to_file(fdist)
 
 
-def write_to_file(sorted_data):
-    data_row = []
+def write_to_file(freqDist):
     total = 0
-    for i in range (0, len(sorted_data)):
-        total = total + int((sorted_data[i])[1])
-    for x in range (0, len(sorted_data)):
-        #print(str((sorted_data[x])[0]), str((sorted_data[x])[1]), str(((sorted_data[x])[1]*100.0)/total))
-        data_row.append((sorted_data[x])[0])
-        data_row.append(float((sorted_data[x])[1]))
-        data_row.append(float(((sorted_data[x])[1]*100.0)/total))
+    for count in freqDist.items():
+        total += int(count[1])
+    
+    data_row = []
+
+    for k, v in freqDist.items():
+        print("Writing " + str(k) + "...")
+        data_row.append(k)
+        data_row.append(float(v))
+        data_row.append(float((v*100.0)/total))
         writer.writerow(data_row)
         del data_row[:]
 
